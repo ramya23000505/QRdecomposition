@@ -1,4 +1,5 @@
 # Algorithm for QR Decomposition
+## Date:
 ## Aim:
 To implement QR decomposition algorithm using the Gram-Schmidt method.
 ## Equipment’s required:
@@ -19,16 +20,12 @@ To implement QR decomposition algorithm using the Gram-Schmidt method.
 4.	Construct the upper triangular matrix R
     ![eqn5](./ex2.jpg)
 
-
-
 ## Program:
 ### Gram-Schmidt Method
 ```
-''' 
 Program to QR decomposition using the Gram-Schmidt method
 Developed by: RAMYA R
 RegisterNumber: 212223230169
-'''
 import numpy as np
 def QR_Decomposition(A):
     n,m=A.shape
@@ -52,8 +49,8 @@ a = np.array(eval(input()))
 QR_Decomposition(a)
 ```
 ## Output
-![Screenshot 2024-04-16 082852](https://github.com/ramya23000505/QRdecomposition/assets/149370791/19bc4095-cfce-48eb-8c2e-a9573161981b)
-![Screenshot 2024-04-16 082903](https://github.com/ramya23000505/QRdecomposition/assets/149370791/4148e8c4-e5b3-4d09-b18a-dd8ee7ffb1d7)
+![alt text](<8 in.png>)
+![alt text](<8 ot.png>)
 
 ## Result
 Thus the QR decomposition algorithm using the Gram-Schmidt process is written and verified the result.
